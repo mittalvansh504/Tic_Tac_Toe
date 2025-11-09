@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: cadetblue;
+    background-color: rgb(104, 102, 42);
     text-align: center;
 }
 
@@ -70,4 +70,62 @@ body{
 
 .hide{
     display: none;
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+  margin: auto;
+}
+
+.image-title {
+    position: absolute;
+    top: 5%;       
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgb(9, 9, 9);
+    font-size: 40px;
+    font-weight: 800;
+    text-shadow: 1px 1px 5px black;
+    margin: 0;
+    padding: 10px;
+}
+
+
+#tic_image {
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  color: rgb(24, 23, 23);
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.text-overlay input {
+  padding: 7px;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+.work {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px 20px;
+  background-color: white;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.work:hover {
+  background-color: black;
+  color: white;
 }
