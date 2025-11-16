@@ -3,33 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="first.html">
     <link rel="stylesheet" href="style.css">
     <title>Tic Tac Toe Game</title>
 </head>
 <body>
-    <div class="msg-container hide">
-        <p id = "msg">Winner</p>
-    </div>
-    <button id = "new-btn">New Game</button>
-    <main>
-        <h1>Tic Tac Toe</h1>
-        <div class="container">
-            <div class="game">
-                <button class="box"></button>
-                <button class="box"></button>
-                <button class="box"></button>
-                <button class="box"></button>
-                <button class="box"></button>
-                <button class="box"></button>
-                <button class="box"></button>
-                <button class="box"></button>
-                <button class="box"></button>
+    <div class="content">
+        <div class="image-container">
+            <img id="tic_image" src="Tic.jpg" alt="Tic Tac Toe">
+            <h1 class = "image-title">Tic Tac Toe</h1>
+            <div class="text-overlay">
+                <form action="Second.html" method="get">
+                    <input type="text" placeholder="Player 1's name" required>
+                    <br><br>
+                    <button type="submit" class="work">Next</button>
+                </form>
             </div>
         </div>
-
-        <button id = "reset-btn">Reset Game</button>
-    </main>
-    <script src="scripting_code.js"></script>
+    </div>
 </body>
+
 </html>
+
